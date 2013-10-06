@@ -203,8 +203,6 @@
 
 		<h4>Blog</h4>
 		<div id="posts"></div>
-		 <div id="posts">
-                       </div>
                        <?php
                         if(!empty($_SESSION['status'])){
                         echo '
