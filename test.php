@@ -12,7 +12,7 @@
     		<link rel="stylesheet" href="css/styles.css">	
 	</head>
 	<body style="color:white;" onload="update_page('<?php echo htmlspecialchars($issue) ?>')">
-		<h4>Testing Git Hooks 5...</h4>
+		<h4>Testing Git Hooks 6...</h4>
 		<h3>CEL List</h3>
 		<form>
 			<div id="cel_list"></div>
