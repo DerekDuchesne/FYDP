@@ -2,7 +2,7 @@
 	session_start();
 
 	//this php code makes sure that the user can't put an issue that doesn't exist as their issue parameter.
-    	include 'scripts/check_cel.php';
+    include 'scripts/check_cel.php';
 
 	if($_GET['issue']){
         	$issue = verify_issue();
@@ -28,6 +28,7 @@
     		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body style="color:black; background-image:none;" onload="update_page('<?php echo htmlspecialchars($issue) ?>')">
+		Testing Git Hooks...
 		<h4>CEL List</h4>
 		<form>
 			<div id="cel_list"></div>
