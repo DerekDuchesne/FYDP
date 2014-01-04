@@ -28,7 +28,7 @@
     		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body style="color:black; background-image:none;" onload="update_page('<?php echo htmlspecialchars($issue) ?>')">
-		Testing Git Hooks
+		Testing Git Hooks.
 		<h4>CEL List</h4>
 		<form>
 			<div id="cel_list"></div>
